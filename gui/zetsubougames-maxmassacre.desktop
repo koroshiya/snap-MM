@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Max Massacre
+GenericName=Max Massacre
+Comment=A visual novel set in a monster-filled fantasy world
+Exec=zetsubougames-maxmassacre
+Icon=${SNAP}/meta/gui/zetsubougames-maxmassacre.png
+Terminal=false
+Type=Application
+Keywords=game;max;massacre;
+Categories=Game

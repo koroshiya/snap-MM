@@ -1,0 +1,32 @@
+name: zetsubougames-maxmassacre
+base: core20
+version: '1.2.0'
+summary: A visual novel set in a monster-filled fantasy world
+description: |
+  Max Massacre is a fantasy Visual Novel with a single choice to determine the ending
+website: https://zetsubou.games/
+license: Proprietary
+
+grade: stable
+confinement: strict
+
+parts:
+  app:
+    source: https://cdn.zetsubou.games/Flatpak/MaxMassacre/builds/v1.2.1-all.tar.bz2
+    plugin: dump
+
+apps:
+  zetsubougames-maxmassacre:
+    command: MaxMassacre.sh
+    extensions: [gnome-3-38]
+    plugs:
+      - x11
+      - opengl
+      - audio-playback
+      - joystick
+
+layout:
+  $SNAP/game/saves:
+    symlink: $SNAP_DATA/saves
+  $SNAP/game/cache:
+    symlink: $SNAP_DATA/cache
