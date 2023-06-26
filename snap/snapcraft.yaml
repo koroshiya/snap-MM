@@ -1,6 +1,6 @@
 name: zetsubougames-maxmassacre
 base: core20
-version: '1.2.0'
+version: '2.0.0'
 summary: A visual novel set in a monster-filled fantasy world
 description: |
   Max Massacre is a fantasy Visual Novel with a single choice to determine the ending
@@ -13,7 +13,7 @@ compression: lzo
 
 parts:
   app:
-    source: https://cdn.zetsubou.games/Flatpak/MaxMassacre/builds/v1.2.1-all.tar.bz2
+    source: https://cdn.zetsubou.games/Flatpak/MaxMassacre/builds/v2.0.0-all.tar.bz2
     plugin: dump
 
 apps:
